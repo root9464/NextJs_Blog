@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack NextJs Blog app
+В данном проекте реализован микросервис личных блогов на next js. 
 
-## Getting Started
+> [!WARNING]  
+> Сделаны все основные crud операции кроме udpadete причиной тому послужил неверный подход к валидации форм, я валидировал их с помощью __react hooks form__,
+>  а nextjs для update требует подход через server actions которые недоступны в клиентских компонентах (пока что). Так что ждем )
 
-First, run the development server:
+![Component 15](https://github.com/root9464/NextJs_Blog/assets/104570588/55f81b6b-ca58-462b-96fa-01bbc62db90f)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Изображение 
+![Снимок экрана 2023-12-16 045046](https://github.com/root9464/NextJs_Blog/assets/104570588/41801a77-1b01-4d55-b8a7-000843413e96)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Снимок экрана 2023-12-16 045108](https://github.com/root9464/NextJs_Blog/assets/104570588/7a49d762-e6d3-498e-99d6-a4660487e3f6)
